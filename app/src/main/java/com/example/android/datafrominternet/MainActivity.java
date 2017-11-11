@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
         int menuId = item.getItemId();
         if(menuId == R.id.action_search) {
             Toast.makeText(this,"Search is clicked",Toast.LENGTH_SHORT).show();
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }
